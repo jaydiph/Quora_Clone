@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myquestions"
+            android:title="My Questions"
+            android:icon="@drawable/ic_house"/>
+        <item
+            android:id="@+id/nav_finance"
+            android:title="My Questions"
+            android:icon="@drawable/ic_finance"/>
+        <item
+            android:id="@+id/nav_spots"
+            android:title="My Questions"
+            android:icon="@drawable/ic_spots"/>
+        <item
+            android:id="@+id/nav_food"
+            android:title="My Questions"
+            android:icon="@drawable/ic_food"/>
+
+    </group>
+        <item android:id="@+id/Action">
+            <menu>
+                <item android:id="@+id/share"
+                    android:title="Share"/>
+                <item android:id="@+id/rate"
+                android:title="Rate"/>
+            </menu>
+        </item>
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign IN to Continue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#881d16"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/logEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:layout_margin="10dp"
+        android:textColor="#881d16"/>
+
+    <EditText
+        android:id="@+id/logPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_margin="10dp"
+        android:textColor="#881d16"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Now"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/loginPageQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="don't have an account? Register"
+        />
+
+</LinearLayout>
